@@ -1,16 +1,88 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      table,
+      thead,
+      tbody,
+      tr,
+      th,
+      td {
+        border: 2px solid black;
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        text-align: center;
+      }
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+      .same {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+      }
+    </style>
+  </head>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <body>
+    <!-- the entire body must be written by student -->
 
-</body>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Roll Numbers</th>
+            <th>Names</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Rahul</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Shubham</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Sundram</td>
+          </tr>
+        </tbody>
+      </table>
 
+      <h2>List of medias</h2>
+
+      <ol>
+        <li>
+          <img
+            src="https://picsum.photos/id/123/200/300"
+            alt="Image of water drops on something"
+          />
+        </li>
+        <li>
+          <video
+            src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            controls
+          >
+            <source
+              src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            />
+          </video>
+        </li>
+        <li>
+          <audio
+            src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"
+            controls
+          >
+            <source
+              src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"
+            />
+          </audio>
+        </li>
+      </ol>
+    </main>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
